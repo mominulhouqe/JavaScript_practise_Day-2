@@ -2,7 +2,7 @@
 
 
 function Convert(miles){
-    const killo = miles / 1.60934;
+    const killo = miles * 1.60934;
     return killo;
 }
 
