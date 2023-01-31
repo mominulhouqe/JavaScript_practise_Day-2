@@ -15,6 +15,7 @@ function OddNumber( Number){
             // console.log(indexNumber , element, sum);
             oddStore.push(element );
         }      
+        console.log(indexNumber, oddStore);
     }
     return sum;
 }
