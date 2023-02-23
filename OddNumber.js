@@ -7,15 +7,17 @@ function OddNumber(Number) {
     const indexNumber = i;
     const element = Number[i];
 
-    sum = sum + element;
-
     if (element % 2 !== 0) {
       // console.log(indexNumber , element, sum);
       oddStore.push(element);
+      sum = sum + element;
+      console.log("sum is", sum)
     }
-    console.log(indexNumber, oddStore);
+    // console.log( oddStore);
+    // sum = sum + element;
+    // console.log(sum)
   }
-  return sum;
+  return oddStore;
 }
 const myNumber = [23, 43, 24, 45, 56, 35, 22, 40];
 

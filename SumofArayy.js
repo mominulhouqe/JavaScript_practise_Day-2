@@ -12,4 +12,3 @@ function SumOfArray(numbers){
 }
 const myNumber = [23,234,434,23];
 SumOfArray(myNumber);
-
